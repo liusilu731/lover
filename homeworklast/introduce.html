@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>最爱的牛排</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Food Corner Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- bootstrap-css -->
+<link href="css\bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+<!--// bootstrap-css -->
+<!-- css -->
+<link rel="stylesheet" href="css\style.css" type="text/css" media="all" />
+<!--// css -->
+<link rel="stylesheet" href="css\owl.carousel.css" type="text/css" media="all">
+<link href="css\owl.theme.css" rel="stylesheet">
+<!-- font-awesome icons -->
+<link href="css\font-awesome.css" rel="stylesheet"> 
+<!-- //font-awesome icons -->
+<!-- font -->
+<link href='//fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
+<link href='//fonts.googleapis.com/css?family=Roboto+Condensed:400,700italic,700,400italic,300italic,300' rel='stylesheet' type='text/css'>
+<!-- //font -->
+<script src="js\jquery-1.11.1.min.js"></script>
+<script src="js\bootstrap.js"></script>
+<script>
+$(document).ready(function() { 
+	$("#owl-demo").owlCarousel({
+ 
+		autoPlay: 3000, //Set AutoPlay to 3 seconds
+		autoPlay:true,
+		items : 4,
+		itemsDesktop : [640,5],
+		itemsDesktopSmall : [414,4]
+ 
+	});
+	
+}); 
+</script>
+<script src="js\SmoothScroll.min.js"></script>
+</head>
+<body>
+	<!-- banner -->
+	<div class="banner">
+		<!--header-->
+		<div class="header">
+			<div class="logo">
+				<h1><a href="introduce.html">最爱的牛排</a></h1>
+			</div>
+			<div class="top-nav">
+				<span class="menu"><img src="photo/menu.png" alt=""/></span>
+				<ul>
+					<li><a class="active" href="index.html">Home</a></li>
+					<li><a href="1.html"></a></li>					
+					<li><a href="2.html"></a></li>
+					<li><a href="3.html"></a></li>
+					<li><a href="4.html"></a></li>
+					<li><a href="5.html"></a></li>
+				</ul>
+				<!-- script-for-menu -->
+				<script>					
+					$("span.menu").click(function(){
+						$(".top-nav ul").slideToggle("slow" , function(){
+						});
+					});
+				</script>
+				<!-- script-for-menu -->
+			</div>
+				<div class="clearfix"> </div>
+		</div>	
+		<!--//header-->
+		<div class="banner-slider">
+			<div class="container">
+				<div class="slider">
+					<div class="callbacks_container">
+						<ul class="rslides" id="slider4">
+							<li>
+								<div class="banner-info">
+									<h3>惠灵顿牛排</h3>
+									<p> 酥皮包裹着多汁的牛排沾上特制的红酒酱汁，让不同的美味融合呈现</p>
+									<a href="menu.html">Menu</a>
+								</div>
+							</li>
+							<li>
+								<div class="banner-info">
+									<h3>牛排真的超级好吃！！!</h3>
+									<p>最喜欢九分熟的牛排！让我们一起往下看看吧！！ </p>
+									<a href="menu.html">Menu</a>
+								</div>
+							</li>
+							<li>
+								<div class="banner-info">
+									<h3>果木黑椒牛排</h3>
+									<p>外焦里嫩黑白胡椒恰到好处的辛辣，大快朵颐</p>
+									<a href="menu.html">Menu</a>
+								</div>
+							</li>
+							<li>
+								<div class="banner-info">
+									<h3>VERY GOOD</h3>
+									<p>香菇炖鸡 </p>
+									<a href="menu.html">Menu</a>
+								</div>
+							</li>
+							<li>
+								<div class="banner-info">
+									<h3>最爱CP</h3>
+									<p>牛排配奶茶</p>
+									<a href="视频.html">Menu</a>
+								</div>
+							</li>
+						</ul>
+					</div>
+					<script src="js\responsiveslides.min.js"></script>
+					<script>
+						// You can also use "$(window).load(function() {"
+						$(function () {
+						  // Slideshow 4
+						  $("#slider4").responsiveSlides({
+							auto: true,
+							pager:true,
+							nav:false,
+							speed: 500,
+							namespace: "callbacks",
+							before: function () {
+							  $('.events').append("<li>before event fired.</li>");
+							},
+							after: function () {
+							  $('.events').append("<li>after event fired.</li>");
+							}
+						  });
+					
+						});
+					 </script>
+					<!--banner Slider starts Here-->
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- //banner -->
+	
+	<!-- history -->
+	<div class="history">
+		<div class="container">
+			<div class="w3l-history-grids">
+				<div class="col-md-5 w3l-history-left">
+					<img src="photo\7.jpg" alt="" />
+				</div>
+				<div class="col-md-7 w3l-history-right">
+					<h2>想回家.</h2>
+					<p>我的名字： 刘思露  学号201916180102 前一个同学：丁玥 201916180101  后一个同学：邹彩玉 201916180103
+					</p>
+					<a href="about.html">More</a>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+	<!-- history -->
+	
+	<!-- services -->
+	<div class="services">
+		<div class="container">
+			<div class="services-info">
+				<h3>吃妈妈做的菜</h3>
+				<p>非常好吃</p>
+			</div>
+		</div>
+		<div class="services-grids">
+			<div id="owl-demo" class="owl-carousel owl-theme">
+					<div class="item">
+						<div class="services-grid-info">
+							<img src="photo/s1.jpg" alt="" />
+							<div class="services-grid-caption"> 
+								<i class="fa fa-cutlery" aria-hidden="true"></i>
+								<h4>烟花易冷</h4>
+								<p>Today is happy</p>
+							</div>
+						</div>	
+					</div>
+					<div class="item">
+						<div class="services-grid-info">
+							<img src="photo/s2.jpg" alt="" />
+							<div class="services-grid-caption"> 
+								<i class="fa fa-cutlery" aria-hidden="true"></i>
+								<h4>桂花弄</h4>
+								<p>Very GOOD</p>
+							</div>
+						</div>	
+					</div>
+					<div class="item">
+						<div class="services-grid-info">
+							<img src="photo/s3.jpg" alt="" />
+							<div class="services-grid-caption"> 
+								<i class="fa fa-cutlery" aria-hidden="true"></i>
+								<h4>红豆派</h4>
+								<p>Nunc tincidunt</p>
+							</div>
+						</div>	
+					</div>
+					<div class="item">
+						<div class="services-grid-info">
+							<img src="photo/s4.jpg" alt="" />
+							<div class="services-grid-caption"> 
+								<i class="fa fa-cutlery" aria-hidden="true"></i>
+								<h4>芝士条</h4>
+								<p>Phasellus magna</p>
+							</div>
+						</div>
+					</div>
+					<div class="item">
+						<div class="services-grid-info">
+							<img src="photo/s5.jpg" alt="" />
+							<div class="services-grid-caption"> 
+								<i class="fa fa-cutlery" aria-hidden="true"></i>
+								<h4>汉堡包</h4>
+								<p>Fusce laoreet</p>
+							</div>
+						</div>	
+					</div>
+					<div class="item">
+						<div class="services-grid-info">
+							<img src="photo/s6.jpg" alt="" />
+							<div class="services-grid-caption"> 
+								<i class="fa fa-cutlery" aria-hidden="true"></i>
+								<h4>韩式炸鸡</h4>
+								<p>Lorem ipsum</p>
+							</div>
+						</div>	
+					</div>
+					<div class="item">
+						<div class="services-grid-info">
+							<img src="photo/s7.jpg" alt="" />
+							<div class="services-grid-caption"> 
+								<i class="fa fa-cutlery" aria-hidden="true"></i>
+								<h4>地瓜条</h4>
+								<p>Nunc tincidunt</p>
+							</div>
+						</div>	
+					</div>
+					<div class="item">
+						<div class="services-grid-info">
+							<img src="photo/s1.jpg" alt="" />
+							<div class="services-grid-caption">
+								<i class="fa fa-cutlery" aria-hidden="true"></i>
+								<h4>南瓜条</h4>
+								<p>Phasellus magna</p>
+							</div>
+						</div>
+					</div>
+			</div>
+		</div>
+	</div>
+	<!-- //services -->
+	
+	<!-- special -->
+	<div class="special">
+		<div class="container">
+			<div class="services-info">
+				<h3>今日奶茶推荐</h3>
+				<p>每天来一杯</p>
+			</div>
+			<div class="special-grids">
+				<div class="col-md-6 w3l-special-grid">
+					<div class="col-md-6 w3ls-special-img">
+						<div class="wpf-demo-6">
+							<div class="w3ls-special-text">
+							</div>
+							<figcaption class="view-caption">
+								<h4>烟花易冷</h4> 
+							</figcaption>
+						</div>
+					</div>
+					<div class="col-md-6 agileits-special-info">
+						<h4>薯条</h4>
+						<p>美味</p>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+				<div class="col-md-6 w3l-special-grid">
+					<div class="col-md-6 w3ls-special-img wthree-img">
+						<div class="wpf-demo-6">
+							<div class="w3ls-special-text">
+								
+							</div>
+							<figcaption class="view-caption">
+								<h4>幽兰拿铁</h4> 
+							</figcaption>
+						</div>
+					</div>
+					<div class="col-md-6 agileits-special-info">
+						<h4>可乐</h4>
+						<p>鸡翅</p>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+				<div class="col-md-6 w3l-special-grid">
+					<div class="col-md-6 agileits-special-info">
+						<h4>炸鸡</h4>
+						<p>汉堡</p>
+					</div>
+					<div class="col-md-6 w3ls-special-img wthree-img2">
+						<div class="wpf-demo-6">
+							<div class="w3ls-special-text">
+							</div>
+							<figcaption class="view-caption">
+								<h4>少年时</h4> 
+							</figcaption>
+						</div>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+				<div class="col-md-6 w3l-special-grid">
+					<div class="col-md-6 agileits-special-info">
+						<h4>冬天到了</h4>
+						<p>做一个冬天冷不到的人</p>
+					</div>
+					<div class="col-md-6 w3ls-special-img wthree-img3">
+						<div class="wpf-demo-6">
+							<div class="w3ls-special-text">
+							</div>
+							<figcaption class="view-caption">
+								<h4>做一个冬天冷不到的人</h4> 
+							</figcaption>
+						</div>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+	<!-- //special -->
+	<!-- footer -->
+	<script src="js\owl.carousel.js"></script>  
+</body>	
+</html>
