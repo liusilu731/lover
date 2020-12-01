@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>偷得浮生半日闲👍</title>
+<style>
+* {
+  box-sizing: border-box;
+}
+ 
+body {
+  font-family: Arial;
+  padding: 10px;
+  background: #f1f1f1;
+}
+ 
+/* 头部标题 */
+.header {
+  padding: 5px;
+  text-align: center;
+  background: white;
+}
+ 
+.header h1 {
+  font-size: 50px;
+}
+ 
+/* 导航条 */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+ 
+/* 导航条链接 */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+ 
+/* 链接颜色修改 */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+ 
+
+.leftcolumn {   
+  float: left;
+  width: 75%;
+}
+ 
+.rightcolumn {
+  float: left;
+  width: 25%;
+  background-color: #f1f1f1;
+  padding-left: 20px;
+}
+ 
+/* 图像部分 */
+.fakeimg {
+  background-color: #aaa;
+    padding:5px;
+  width: 100%;
+ height: 250px;
+}
+    .fakeimg1 {
+  background-color: #aaa;
+    padding:5px;
+  width: 100%;
+ height: auto;
+}
+ 
+/* 文章卡片效果 */
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+ 
+/* 列后面清除浮动 */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+ 
+/* 底部 */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+}
+ 
+/* 响应式布局 - 屏幕尺寸小于 800px 时，两列布局改为上下布局 */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+ 
+/* 响应式布局 -屏幕尺寸小于 400px 时，导航等布局改为上下布局 */
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+    .bookborder{
+        border:2px auto;
+    }
+</style>
+</head>
+<body>
+    <script type="text/javascript" src="me.js" ></script>
+<div class="header">
+  <h1>偷得浮生半日闲🎐</h1>
+  <p><strong>find a moment of leisure in a busy life</strong></p>
+</div>
+
+<div class="topnav">
+  <a href="#">📕文学</a>
+  <a href="#">音乐🎵</a>
+  <a href="#">电影🎦</a>
+  <a href="#" style="float:right">动漫😋</a>
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h2>喜欢读的书</h2>
+      <h5>2020 年 11 月 28日</h5>
+      <div class="fakeimg" style="text-align: center"><img src="D:\desktop\自我介绍\图片\5.jpg" height="65%">
+          <img src="D:\desktop\自我介绍\图片\11.jpg" height="92%">
+        <img src="D:\desktop\自我介绍\图片\14.png" height="80%">
+        <img src="D:\desktop\自我介绍\图片\15.jpg"  height="100%">
+        <img src="D:\desktop\自我介绍\图片\16.jpg" height="90%">
+          <img src="D:\desktop\自我介绍\图片\17.jpg"height="80%">
+        </div>
+      <p><strong>人不过是一颗会思考的蒲苇,少些聒噪，不如安静享受人生。</strong></p>
+    
+    </div>
+    <div class="card">
+      <h2>最近看的电影</h2>
+      <h5>2020 年 11 月 28 日</h5>
+      <div class="fakeimg" style="height:400px;text-align: center">
+            <img src="D:\desktop\自我介绍\图片\3.jpg" height="70%">
+            <img src="D:\desktop\自我介绍\图片\18.jpg" height="80%">
+          <img src="D:\desktop\自我介绍\图片\20.jpg"height="75%">
+          
+      </div>
+      <p>每个星期看一部电影是一种享受</p>
+    </div>
+  </div>
+  <div class="rightcolumn">
+    <div class="card">
+      <h2>误入の二次元</h2>
+         <h5>2020 年 11 月 28 日</h5>
+        <div class="fakeimg1"><img src="D:\desktop\自我介绍\图片\8.jpg" width="100%"height="100%"></div>
+      <p>hhh最近在看这个动漫</p>
+    </div>
+    <div class="card">
+      <h3>画猫-梦唐</h3>
+        <h5>2020 年 11 月 28 日</h5>
+      <div class="fakeimg1"><img src="D:\desktop\自我介绍\图片\9.jpg"width="100%"></div>
+        <p>物画天宝，锦礼满唐</p>
+        <p>《画猫-梦唐》是一系列的画册</p>
+    </div>
+  
+  </div>
+</div>
+
+<div class="footer">
+  <h2>纪录一下消遣的生活 🍀</h2>
+</div>
+
+</body>
+</html>
